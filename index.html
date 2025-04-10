@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixora</title>
+    <link rel="icon" href="favicon_io/android-chrome-512x512.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="favicon_io/android-chrome-192x192.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="icons/favicon-48x48.png" sizes="48x48" type="image/png">
+    <link rel="apple-touch-icon" href="favicon_io/apple-touch-icon.png" sizes="180x180">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav-wrapper">
+            <nav>
+                <h1 class="unres-head logo">Pixora</h1>
+                <h1 class="res-head logo">P</h1>
+                <input type="text" id="search-input" placeholder="Search here...">
+            </nav>
+        </div>
+    </div>
+
+    <div class="images-container"></div>
+    <!-- <div class="img-preview">
+        <div class="preview-img">
+            <img src="https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&h=350" alt="">
+        </div>
+    </div> -->
+
+    <div class="modal" id="imageModal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-img" id="modalImage">
+        <a class="download-btn" id="downloadBtn" download>Download</a>
+        <span class="prev-btn" id="prevBtn">&#10094;</span>
+        <span class="next-btn" id="nextBtn">&#10095;</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
